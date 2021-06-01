@@ -15,6 +15,7 @@ Papers_with_Code_bot is a bot for notifying Slack of SOTA updates on the web usi
 - beautifulsoup4 4.9.3
 - lxml 4.6.3
 - pandas 1.1.5
+- PyYAML 3.13
 - requests 2.25.1
 
 ## Usage
