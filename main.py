@@ -45,6 +45,8 @@ def make_msg(soup, slack_id, filepath):
     ):
         dataset = get_atag(dataset)
         model = get_atag(model)
+        if not (dataset in df.index):
+            df.loc[dataset] = [model, paper]
         if df.loc[dataset].iloc[0] != model:
             paper = get_atag(paper)
             url = url.a.get("href")
