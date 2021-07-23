@@ -20,6 +20,8 @@ Papers_with_Code_bot is a bot for notifying Slack of SOTA updates on the web usi
 
 ## Usage
 
+Set task names and notification time in config.yaml
+
 ```
 $ python main.py --webhook_url [your_incoming_webhook_url] --needsInitialCsv [bool]
 ```
