@@ -1,6 +1,6 @@
 dataset,model,paper
-COCOtest-dev,"Swin-L(HTC++,multiscale)",SwinTransformer:HierarchicalVisionTransformerusingShiftedWindows
-COCOminival,"Swin-L(HTC++,multiscale)",SwinTransformer:HierarchicalVisionTransformerusingShiftedWindows
+COCOtest-dev,"DyHead(Swin-L,multiscale,self-training)",DynamicHead:UnifyingObjectDetectionHeadswithAttentions
+COCOminival,"DyHead(Swin-L,multiscale,self-training)",DynamicHead:UnifyingObjectDetectionHeadswithAttentions
 PASCALVOC2007,"CascadeEff-B7NAS-FPN(CopyPastepre-training,single-scale)",SimpleCopy-PasteisaStrongDataAugmentationMethodforInstanceSegmentation
 CrowdHuman(fullbody),BetaR-CNN,BetaR-CNN:LookingintoPedestrianDetectionfromAnotherPerspective
 Waymo2Ddetectionall_nsf0val,UniverseNet-20.08,USB:Universal-ScaleObjectDetectionBenchmark
@@ -39,3 +39,9 @@ UAVVaste,EfficientDet-D2,WastedetectioninPomerania:non-profitprojectfordetecting
 ExtendedTACO-1,EfficientDet-D2,WastedetectioninPomerania:non-profitprojectfordetectingwasteinenvironment
 DrinkingWasteClassification,EfficientDet-D2,WastedetectioninPomerania:non-profitprojectfordetectingwasteinenvironment
 ExtendedTACO-7,EfficientDet-D2,WastedetectioninPomerania:non-profitprojectfordetectingwasteinenvironment
+WaymoOpenDataset,LeapMotor_Det,"<div class=""paper blue-links"">
+<a href=""/sota/object-detection-on-waymo-open-dataset"">2nd Place Solution for Waymo Open Dataset Challenge - Real-time 2D Object Detection</a>
+</div>"
+DAVIS-2016,ViTAE-T-Stage,"<div class=""paper blue-links"">
+<a href=""/sota/object-detection-on-davis-2016"">ViTAE: Vision Transformer Advanced by Exploring Intrinsic Inductive Bias</a>
+</div>"

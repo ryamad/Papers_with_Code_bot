@@ -1,13 +1,13 @@
 dataset,model,paper
-ImageNet,MetaPseudoLabels(EfficientNet-L2),MetaPseudoLabels
+ImageNet,ViT-G/14,ScalingVisionTransformers
 CIFAR-10,EffNet-L2(SAM),Sharpness-AwareMinimizationforEfficientlyImprovingGeneralization
 CIFAR-100,EffNet-L2(SAM),Sharpness-AwareMinimizationforEfficientlyImprovingGeneralization
 STL-10,Wide-ResNet-101(SpinalFC),SpinalNet:DeepNeuralNetworkwithGradualInput
 SVHN,WRN28-10(SAM),Sharpness-AwareMinimizationforEfficientlyImprovingGeneralization
-MNIST,Branching/MergingCNN+HomogeneousFilterCapsules,ABranchingandMergingConvolutionalNetworkwithHomogeneousFilterCapsules
+MNIST,Branching/MergingCNN+HomogeneousVectorCapsules,NoRoutingNeededBetweenCapsules
 ImageNetReaL,MetaPseudoLabels(EfficientNet-B6-Wide),MetaPseudoLabels
 VTAB-1k,ALIGN(50hypers/task),ScalingUpVisualandVision-LanguageRepresentationLearningWithNoisyTextSupervision
-Flowers-102,BiLSTM-TDN,SequentialRandomNetworkforFine-grainedImageClassification
+Flowers-102,ViT-L/16,AnImageisWorth16x16Words:TransformersforImageRecognitionatScale
 Clothing1M,AugDesc-WS-SAW,AugmentationStrategiesforLearningwithNoisyLabels
 iNaturalist2018,RegNet-8GF,Grafit:Learningfine-grainedimagerepresentationswithcoarselabels
 Kuzushiji-MNIST,VGG-5(SpinalFC),SpinalNet:DeepNeuralNetworkwithGradualInput
@@ -20,11 +20,11 @@ CINIC-10,NAT-M3,NeuralArchitectureTransfer
 EMNIST-Letters,VGG-5(SpinalFC),SpinalNet:DeepNeuralNetworkwithGradualInput
 TieredImageNet5-way(5-shot),EGNN+Transduction,Edge-labelingGraphNeuralNetworkforFew-shotLearning
 ObjectNet,BiT-L(ResNet-152x4),BigTransfer(BiT):GeneralVisualRepresentationLearning
-Oxford-IIITPets,BiLSTM-TDN(ResNet-101),SequentialRandomNetworkforFine-grainedImageClassification
+Oxford-IIITPets,CeiT-S(384finetuneresolution),IncorporatingConvolutionDesignsintoVisualTransformers
 smallNORB,Efficient-CapsNet,Efficient-CapsNet:CapsuleNetworkwithSelf-AttentionRouting
 EMNIST-Balanced,VGG-5(SpinalFC),SpinalNet:DeepNeuralNetworkwithGradualInput
-ImageNetV2,CAIT-M36-448,GoingdeeperwithImageTransformers
-iNaturalist,Style2Vec,Style2Vec:RepresentationLearningforFashionItemsfromStyleSets
+ImageNetV2,ViT-G/14,ScalingVisionTransformers
+iNaturalist,FixSENet-154,Fixingthetrain-testresolutiondiscrepancy
 TinyImageNetClassification,ViT-B/32pretrainedonImageNet-21K,AnImageisWorth16x16Words:TransformersforImageRecognitionatScale
 ObjectNet(BoundingBox),BiT-L(ResNet),BigTransfer(BiT):GeneralVisualRepresentationLearning
 EMNIST-Digits,VGG-5(SpinalFC),SpinalNet:DeepNeuralNetworkwithGradualInput
@@ -53,3 +53,45 @@ PASCALVOC2007,NNCLR,WithaLittleHelpfromMyFriends:Nearest-NeighborContrastiveLear
 DTD,NNCLR,WithaLittleHelpfromMyFriends:Nearest-NeighborContrastiveLearningofVisualRepresentations
 MNIST-rot-12,PDO-eConv(ours),PDO-eConvs:PartialDifferentialOperatorBasedEquivariantConvolutions
 MNIST-rot-12k(DA),PDO-eConv(ours),PDO-eConvs:PartialDifferentialOperatorBasedEquivariantConvolutions
+JFT-300M,V-MoE-H/14(Every-2),"<div class=""paper blue-links"">
+<a href=""/sota/image-classification-on-jft-300m"">Scaling Vision with Sparse Mixture of Experts</a>
+</div>"
+SIPaKMeD,DL+PCA+GWO,"<div class=""paper blue-links"">
+<a href=""/sota/image-classification-on-sipakmed"">Cervical Cytology Classification Using PCA &amp; GWO Enhanced Deep Features Selection</a>
+</div>"
+"CIFAR-10,40%SymmetricNoise",FaMUS,"<div class=""paper blue-links"">
+<a href=""/sota/image-classification-on-cifar-10-40-symmetric"">Faster Meta Update Strategy for Noise-Robust Deep Learning</a>
+</div>"
+"CIFAR-10,60%SymmetricNoise",MentorMix,"<div class=""paper blue-links"">
+<a href=""/sota/image-classification-on-cifar-10-60-symmetric"">Faster Meta Update Strategy for Noise-Robust Deep Learning</a>
+</div>"
+"CIFAR-100,40%SymmetricNoise",FaMUS,"<div class=""paper blue-links"">
+<a href=""/sota/image-classification-on-cifar-100-40"">Faster Meta Update Strategy for Noise-Robust Deep Learning</a>
+</div>"
+WebVision,Ours,"<div class=""paper blue-links"">
+<a href=""/sota/image-classification-on-webvision"">Faster Meta Update Strategy for Noise-Robust Deep Learning</a>
+</div>"
+HErlev,DL+PCA+GWO,"<div class=""paper blue-links"">
+<a href=""/sota/image-classification-on-herlev"">Cervical Cytology Classification Using PCA &amp; GWO Enhanced Deep Features Selection</a>
+</div>"
+Sports10,MaxMarginContrastive,"<div class=""paper blue-links"">
+<a href=""/sota/image-classification-on-sports10"">Contrastive Learning of Generalized Game Representations</a>
+</div>"
+"CIFAR-100,60%SymmetricNoise",MentorMix,"<div class=""paper blue-links"">
+<a href=""/sota/image-classification-on-cifar-100-60"">Faster Meta Update Strategy for Noise-Robust Deep Learning</a>
+</div>"
+RedMiniImageNet20%labelnoise,FaMUS,"<div class=""paper blue-links"">
+<a href=""/sota/image-classification-on-red-miniimagenet-20"">Faster Meta Update Strategy for Noise-Robust Deep Learning</a>
+</div>"
+RedMiniImageNet40%labelnoise,FaMUS,"<div class=""paper blue-links"">
+<a href=""/sota/image-classification-on-red-miniimagenet-40"">Faster Meta Update Strategy for Noise-Robust Deep Learning</a>
+</div>"
+RedMiniImageNet60%labelnoise,FaMUS,"<div class=""paper blue-links"">
+<a href=""/sota/image-classification-on-red-miniimagenet-60"">Faster Meta Update Strategy for Noise-Robust Deep Learning</a>
+</div>"
+RedMiniImageNet80%labelnoise,FaMUS,"<div class=""paper blue-links"">
+<a href=""/sota/image-classification-on-red-miniimagenet-80"">Faster Meta Update Strategy for Noise-Robust Deep Learning</a>
+</div>"
+SARS-COV-2,Fuzzyrank-basedfusionofCNNmodelsusingGompertzfunction,"<div class=""paper blue-links"">
+<a href=""/sota/image-classification-on-sars-cov-2"">Fuzzy Rank-based Fusion of CNN Models using Gompertz Function for Screening COVID-19 CT-Scans</a>
+</div>"

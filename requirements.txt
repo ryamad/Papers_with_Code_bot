@@ -3,3 +3,4 @@ lxml==4.6.3
 pandas==1.1.5
 PyYAML==3.13
 requests==2.25.1
+schedule==1.1.0

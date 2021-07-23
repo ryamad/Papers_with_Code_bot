@@ -1,3 +1,5 @@
 tasks:
   - image-classification
   - object-detection
+  - anomaly-detection
+time: 07:30
