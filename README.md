@@ -1,6 +1,6 @@
 # Papers_with_Code_bot
 
-Papers_with_Code_bot is a bot for notifying Slack of SOTA updates on the web using GitHub Actions.
+Papers_with_Code_bot is a bot for notifying Slack of SOTA updates on the web.
 
 ## Descriptions
 
